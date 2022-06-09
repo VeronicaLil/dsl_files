@@ -15,9 +15,9 @@ pipelineJob('my-pipeline') {
                             name("main")
                         }
                     }
+                }
             }
-
             scriptPath('Jenkinsfile')
         }
-    }
+    }   
 }
