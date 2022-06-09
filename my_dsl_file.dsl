@@ -4,11 +4,6 @@ pipelineJob('my-pipeline') {
             lightweight(lightweight=true)
             scm {
                 git {
-                    remote {
-                        github('VeronicaLil/TF-pipeline')
-                    }
-                }
-
                 gitSCM {
                     branches {
                         branchSpec {
