@@ -15,6 +15,12 @@ pipelineJob('my-pipeline') {
                             name("main")
                         }
                     }
+                    gitTool('')
+                    browser{
+                        githubWeb {
+                            repoUrl("https://github.com/VeronicaLil/TF-pipeline")
+                        }
+                    }
                 }
             }
             scriptPath('Jenkinsfile')
