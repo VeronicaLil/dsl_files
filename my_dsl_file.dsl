@@ -4,17 +4,15 @@ pipelineJob('my-pipeline') {
             lightweight(lightweight=true)
             scm {
                 git {
-                    gitSCM {
-                        branches {
-                            branchSpec {
-                                name("main")
-                            }
+                    branches {
+                        branchSpec {
+                            name("main")
                         }
-                        gitTool('')
-                        browser{
-                            githubWeb {
-                                repoUrl("https://github.com/VeronicaLil/TF-pipeline")
-                            }
+                    }
+                    gitTool('')
+                    browser{
+                        githubWeb {
+                            repoUrl("https://github.com/VeronicaLil/TF-pipeline")
                         }
                     }
                 }
