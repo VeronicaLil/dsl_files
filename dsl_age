@@ -1,4 +1,4 @@
-pipelineJob('my-pipeline') {
+pipelineJob('age-pipeline') {
     parameters {
         stringParam("year", "2020", "birth year")
         stringParam("month", "1", "birth month")
