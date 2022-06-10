@@ -12,7 +12,7 @@ pipelineJob('my-pipeline') {
                     userRemoteConfigs {
                         userRemoteConfig {
                             // Specify the URL of this remote repository.
-                            url("https://github.com/VeronicaLil/TF-pipeline")
+                            url("https://github.com/VeronicaLil/veronica_test")
                             // ID of the repository, such as origin, to uniquely identify this repository among other remote repositories.
                             name("")
                             // A refspec controls the remote refs to be retrieved and how they map to local refs.
@@ -29,7 +29,7 @@ pipelineJob('my-pipeline') {
                     gitTool('')
                     browser{
                         githubWeb {
-                            repoUrl("https://github.com/VeronicaLil/TF-pipeline")
+                            repoUrl("https://github.com/VeronicaLil/veronica_test")
                         }
                     }
                 }
