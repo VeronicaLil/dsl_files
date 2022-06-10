@@ -4,6 +4,9 @@ pipelineJob('age-pipeline') {
         stringParam("month", "1", "birth month")
         stringParam("day", "1", "birth day")
     }
+    environmentVariables {
+        env{"years_to_add", "20"}
+    }
     definition {
         cpsScm {
 			scm {
